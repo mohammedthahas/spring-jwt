@@ -28,7 +28,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home(){
-        return "welcome Home";
+        return "welcome Home ";
     }
                         @PostMapping("/authenticate")
     public JwtResponse authenticate(@RequestBody JwtRequest jwtRequest)throws Exception{
